@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-card {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.movie-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-details {
+    padding: 20px;
+}
+
+.movie-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.movie-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.card-body-stars {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.star {
+    display: inline;
+    color: gold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
